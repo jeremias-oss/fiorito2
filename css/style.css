@@ -4,10 +4,21 @@
     text-decoration: none;
 }
 
+
 @font-face {
-    font-family: "mybrice";
-    src: url(/./fonts/Brice-BlackSemiExpanded.otf);
+    font-family: 'mybrice';
+    src: url(Brice-BlackSemiExpanded.otf);
 }
+
+
+@font-face {
+    font-family: 'briceblack_semiexpanded';
+    src: url('brice-blacksemiexpanded-webfont.woff2') format('woff2'),
+         url('brice-blacksemiexpanded-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .header {
     display: flex;
@@ -27,7 +38,7 @@
 }
 
 .text_header {
-    font-family: "mybrice";
+    font-family: 'mybrice';
     color: #be1d2d;
     font-size: 2em;
 }
@@ -41,7 +52,7 @@
 }
 
 .sub_menu_type {
-    font-family: "mybrice";
+    font-family: 'briceblack_semiexpanded';
     color: #be1d2d;
     font-size: 1.5em;
     text-align: center;
