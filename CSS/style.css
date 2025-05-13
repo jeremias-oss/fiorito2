@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "brice";
-    src: url(fonts\brice\Brice-BlackSemiExpanded.otf);
+    src: local(fonts\brice\Brice-BlackSemiExpanded);
 
 }
 
